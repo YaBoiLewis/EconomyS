@@ -4,7 +4,7 @@ author: onebone
 main: onebone\economypshop\EconomyPShop
 
 api:
-- 3.0.0-ALPHA7
+- 3.0.0-ALPHA6
 
 permissions:
  economypshop.*:
@@ -15,9 +15,10 @@ permissions:
     children:
      economypshop.shop.create:
       description: Allows player to create shop
-      default: true
+      default: false
      economypshop.shop.buy:
       description: Allows player to buy items from shop
       default: true
      economypshop.shop.destroy.others:
       description: Allows player to destroy others' shop
+      default: false
